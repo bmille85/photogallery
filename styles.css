@@ -86,7 +86,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -100,17 +100,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -118,11 +122,11 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* End of reset */
 
 :root {
   font-family: Arial, Helvetica, sans-serif;
@@ -180,6 +184,7 @@ li {
 li:nth-child(2) {
   margin: 0 50px;
 }
+
 li:nth-child(4) {
   position: fixed;
   bottom: 95px;
@@ -188,6 +193,7 @@ li:nth-child(4) {
   padding: 10px;
   cursor: pointer;
 }
+
 li:nth-child(4) a {
   font-size: 0.9em;
 }
@@ -202,7 +208,7 @@ h2 {
   margin: 10px 0;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 p {
@@ -237,7 +243,7 @@ figcaption {
   text-transform: uppercase;
   position: relative;
   top: -30px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .blackText {
@@ -251,6 +257,7 @@ figcaption {
 .blackText {
   color: #000;
 }
+
 .blackTopCaption {
   top: -610px;
 }
@@ -300,13 +307,14 @@ form {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
+
 input {
   padding: 8px 0;
 }
 
 ::placeholder {
   color: #007d7b;
-  font-weight: bold;
+  font-weight: 700;
   display: inline-block;
   padding: 0 6px;
 }
